@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "图书推荐系统"
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationBarTitleText": "书籍分类"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的主页"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "资讯"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "图书推荐系统",
+		"navigationBarBackgroundColor": "#4682B4",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh":true
+	},
+	"tabBar":{
+		"borderStyle":"white",
+		"color":"#bfbfbf",
+		"selectedColor":"#4682B4",
+		"list":[
+			{
+			"text":"首页",
+			"pagePath":"pages/index/index",
+			"iconPath":"static/tabbar/shouye.png",
+			"selectedIconPath":"static/tabbar/shouye-active.png"
+			},
+			{
+			"text":"资讯",
+			"pagePath":"pages/message/message",
+			"iconPath":"static/tabbar/zixun.png",
+			"selectedIconPath":"static/tabbar/zixun-active.png"
+			},
+			{
+			"text":"分类",
+			"pagePath":"pages/classification/classification",
+			"iconPath":"static/tabbar/fenlei-.png",
+			"selectedIconPath":"static/tabbar/fenlei-active.png"
+			},
+			{
+			"text":"我的",
+			"pagePath":"pages/profile/profile",
+			"iconPath":"static/tabbar/yonghu.png",
+			"selectedIconPath":"static/tabbar/yonghu-active.png"
+			}
+		]
+	}
+}

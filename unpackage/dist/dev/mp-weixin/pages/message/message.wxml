@@ -1,0 +1,1 @@
+<view class="contant"><image class="img" src="../../static/timg.jpg" mode="widthFix"></image><view class="info"><view data-event-opts="{{[['tap',[['call']]]]}}" bindtap="__e">联系电话:13692763394(点击拨打)</view><view>联系地址：广东省广州市天河区广州图书馆</view></view><map class="map" latitude="{{latitude}}" scale="{{scale}}" longitude="{{longitude}}" markers="{{markers}}"></map></view>

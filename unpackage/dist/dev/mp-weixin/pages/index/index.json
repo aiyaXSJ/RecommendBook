@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图书推荐系统",
+  "usingComponents": {
+    "books-list": "/components/books-list/books-list"
+  }
+}
